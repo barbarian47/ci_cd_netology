@@ -24,3 +24,6 @@ jobs:
 
       - name: Linting
         run: flake8 main
+      
+      - name: Testing
+        run: python3 manage.py test
